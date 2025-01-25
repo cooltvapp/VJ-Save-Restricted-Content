@@ -14,8 +14,8 @@ ADMINS = int(os.environ.get("ADMINS", "6073523936"))
 
 # Your Mongodb Database Urlmongodb+srv://chatfair2024:<jDPVXXp7oQvoxY1a>@chatfair.j0yxmxo.mongodb.net/?retryWrites=true&w=majority&appName=Chatfair"
 # Warning - Give Db uri in deploy server environment variable, don't give in repo.
-DB_URI = os.environ.get("DB_URI", "mongodb+srv://chatfair2024:<jDPVXXp7oQvoxY1a>@chatfair.j0yxmxo.mongodb.net/?retryWrites=true&w=majority&appName=Chatfair") # Warning - Give Db uri in deploy server environment variable, don't give in repo.
-DB_NAME = os.environ.get("DB_NAME", "chatfair2024")
+DB_URI = os.environ.get("DB_URI", "mongodb+srv://dlsave:<dlsave>@cluster0.p6qum.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0") # Warning - Give Db uri in deploy server environment variable, don't give in repo.
+DB_NAME = os.environ.get("DB_NAME", "dlsave")
 
 # If You Want Error Message In Your Personal Message Then Turn It True Else If You Don't Want Then Flase
 ERROR_MESSAGE = bool(os.environ.get('ERROR_MESSAGE', True))
